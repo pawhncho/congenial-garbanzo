@@ -1,0 +1,202 @@
+.product-page {
+    padding: 1em;
+    color: #1F1F1F;
+}
+
+.product-page .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.product-page .navbar .icon {
+    font-size: 1.8em;
+}
+
+.product-page img {
+    width: 100%;
+    border-radius: 0.5em;
+    box-shadow: 0em 0.2em 0.8em -0.2em #1F1F1F;
+    margin-bottom: 0.5em;
+}
+
+.product-page .slider {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.product-page .slider .slide {
+    padding: 0.15em;
+    border: 1px solid #1F1F1F;
+    border-radius: 50%;
+    margin: 0.2em;
+}
+
+.product-page .slider .current {
+    background-color: #1F1F1F;
+}
+
+.product-page .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.product-page .details .d-ld {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.product-page .details .d-ld h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 0.1em;
+    font-family: "Oswald", sans-serif;
+}
+
+.product-page .details .d-ld .rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-page .details .d-ld .rating .reviews {
+    font-size: 1.2em;
+    font-family: "Exo 2", sans-serif;
+    color: #707070;
+}
+
+.product-page .details .d-ld .rating .stars {
+    display: flex;
+    align-items: center;
+    gap: 0.1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #707070;
+    font-family: "Exo 2", sans-serif;
+}
+
+.product-page .details .d-ld .rating .stars .icon {
+    font-size: 1.6em;
+    color: gold;
+}
+
+.product-page .details .d-rd {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-page .details .d-rd .price {
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+
+.product-page .about {
+    font-size: 1em;
+    color: #707070;
+    margin-bottom: 1.5em;
+}
+
+.product-page .sizes {
+    margin-bottom: 0.5em;
+}
+
+.product-page .sizes .label {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.product-page .sizes .list {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.product-page .sizes .list .size {
+    box-shadow: 0.1em 0.1em 0.2em -0.2em #1F1F1F;
+    border-radius: 0.5em;
+    background-color: #FFFCFC;
+    color: #707070;
+    font-size: 0.95em;
+    padding: 1em;
+    display: inline-block;
+    margin: 0.5em 0em;
+    margin-right: 0.5em;
+    font-family: "Oswald", sans-serif;
+}
+
+.product-page .colors {
+    margin-bottom: 1em;
+}
+
+.product-page .colors .label {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.product-page .colors .list {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.product-page .colors .list .color {
+    box-shadow: 0.1em 0.1em 0.2em -0.2em #1F1F1F;
+    border-radius: 50%;
+    padding: 1.4em;
+    display: inline-block;
+    margin: 0.5em 0em;
+    margin-right: 0.5em;
+}
+
+.product-page .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.product-page .buttons button.cart {
+    border: 0;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFCFC;
+    width: 50%;
+    background-color: #1F1F1F;
+    font-family: "Exo 2", sans-serif;
+    box-shadow: 0.1em 0.1em 0.4em -0.2em #1F1F1F;
+}
+
+.product-page .buttons button.cart .icon {
+    color: #FFFCFC;
+    font-size: 1.5em;
+    margin-right: 0.2em;
+}
+
+.product-page .buttons button.share {
+    border: 0;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1F1F1F;
+    width: 50%;
+    background-color: #FFFCFC;
+    border: 1px solid #1F1F1F;
+    font-family: "Exo 2", sans-serif;
+}
+
+.product-page .buttons button.share .icon {
+    color: #1F1F1F;
+    font-size: 1.5em;
+    margin-right: 0.2em;
+}
